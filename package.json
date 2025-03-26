@@ -4,7 +4,7 @@
   "description": "skynote-cloud based software for maintaining your important notes",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js", 
+    "start": "pm2 start index.js", 
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
